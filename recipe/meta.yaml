@@ -27,6 +27,8 @@ requirements:
     - sentencepiece
     - tokenizers
     - pytorch
+    # necessary for passing pip-check
+    - transformers ==4.20.0
 
 test:
   imports:
