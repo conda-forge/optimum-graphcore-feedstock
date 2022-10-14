@@ -1,5 +1,5 @@
 {% set name = "optimum-graphcore" %}
-{% set version = "0.3.2" %}
+{% set version = "0.4.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/optimum-graphcore-{{ version }}.tar.gz
-  sha256: 4a053a2a9f83b82caa20f2cde94f697dd4cac2e77f9442024596689eb60e14ae
+  sha256: b561957484053a4bcec960297a2c8f17329589063495e52718b581e44c7cb2a0
 
 build:
   number: 0
